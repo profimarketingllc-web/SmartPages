@@ -1,97 +1,87 @@
-# SmartPages
+# 🚀 SmartPages
 
-**SmartPages** is a modular platform for **professional digital presence**, built for people and small businesses who want to be visible online **without dealing with websites, hosting, or technical complexity**.
-
-🌐 Official website: **https://www.smartpages.online**
-
-SmartPages focuses on **clarity, speed, and simplicity** – especially for creators and small businesses in the European market, while remaining fully usable internationally.
+SmartPages is an edge-native SaaS platform designed to create, manage and deliver high-performance web pages at scale.
 
 ---
 
-## What is SmartPages?
+## 🌍 Overview
 
-SmartPages helps you create and manage a clean, professional online presence in minutes instead of weeks.
+SmartPages enables users to:
 
-Instead of juggling multiple tools and services, SmartPages brings the most important building blocks together in one system:
+- create and manage content through a central portal  
+- generate structured pages using a template-based system  
+- publish pages instantly to a global edge network  
 
-- profiles
-- links
-- domains
-- pages
-- insights and tracking (planned)
-
-The goal is simple: **get online fast, look professional, and stay flexible as you grow**.
+The platform focuses on **simplicity in usage** and **performance in delivery**.
 
 ---
 
-## Who is SmartPages for?
+## 🏗️ Architecture
 
-### 🎯 Micro-Influencers & Creators (Getting Started)
+SmartPages is divided into four main areas:
 
-SmartPages is designed for creators who are just starting out and want a professional foundation from day one:
+- **Marketing (`www.`)**  
+  Landing pages and CRM (HubSpot)
 
-- one central link for all platforms
-- professional appearance without design or technical skills
-- structured profile pages for social media and content platforms
-- focus on content instead of tools
+- **Portal (`desk.`)**  
+  User interface for content creation and management  
 
-SmartPages helps creators **look established early**, even with a small audience.
+- **Worker System (API & Logic)**  
+  Backend processing, rendering and data handling  
 
----
-
-### 🏢 Small Businesses & Self-Employed (SMEs)
-
-SmartPages is ideal for small businesses that:
-
-- do not have a professional website yet
-- do not want to manage hosting, updates, or maintenance
-- still need to appear trustworthy, reachable, and modern
-
-Instead of a complex website project, SmartPages provides a **lean, professional digital presence** that simply works.
+- **Delivery (`app.`)**  
+  High-performance static page delivery via edge  
 
 ---
 
-## SmartPages Modules
+## ⚙️ Key Principles
 
-SmartPages is modular by design and grows step by step:
+- **Edge-first architecture**  
+  Built entirely on Cloudflare infrastructure  
 
-- **SmartProfile** – professional profile pages for people or brands
-- **SmartLinks** – flexible link collections and redirects
-- **SmartDomain** – connect your own domain with ease
-- **SmartPage** – simple pages for offers, information, or campaigns
-- **Dashboard** – one central place to manage everything
+- **Static delivery model**  
+  Pages are pre-rendered and delivered as static HTML  
 
-Each module works independently but becomes more powerful when combined.
+- **Separation of concerns**  
+  UI, logic and delivery are strictly separated  
 
----
-
-## Why SmartPages?
-
-- no technical setup required
-- no traditional website builder complexity
-- clear structure instead of overloaded page builders
-- designed for real-world use cases
-- built for creators and small businesses, not agencies first
-
-SmartPages is not a classic website builder.
-It is a **practical, advisory-driven solution** for modern digital presence.
+- **Performance-focused design**  
+  Instant content rendering, async media loading  
 
 ---
 
-## Project Status
+## 🧰 Tech Stack
 
-SmartPages is under active development.
-
-- core features are being built and refined
-- current focus is on creators and small businesses
-- advanced features (e.g. agency workflows, multi-profile management) are planned for the future
+- Cloudflare Workers  
+- Cloudflare Pages  
+- D1 (database)  
+- KV (sessions & draft state)  
+- R2 (media & page storage)  
+- Astro (frontend)  
+- SolidJS (reactive UI components)  
 
 ---
 
-## Learn More
+## 📦 Repository Purpose
 
-Visit the official website to learn more about SmartPages:
+This repository provides a general overview of the SmartPages platform.
 
-👉 **https://www.smartpages.online**
+It is **not directly connected to the production system** and does not contain sensitive implementation details.
 
-SmartPages stands for **clear digital presence without complexity**.
+---
+
+## 🧭 Status
+
+SmartPages is actively under development and continuously evolving.
+
+---
+
+## 🤝 Notes
+
+The platform is designed with a strong focus on:
+
+- scalability  
+- performance  
+- clear system separation  
+
+---
